@@ -1,0 +1,6 @@
+{
+  "editor.organizeImports": {
+    "scope": "workspace",
+    "enable": true
+  }
+}

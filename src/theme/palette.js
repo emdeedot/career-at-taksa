@@ -1,0 +1,68 @@
+export default {
+  type: "light",
+  neutral: {
+    100: "#EAECF7",
+    200: "#D4D8EF",
+    300: "#BFC5E6",
+    400: "#AAB2DE",
+    500: "#8AA3CE",
+    600: "#7390C4",
+    700: "#5C7EBB",
+    800: "#446BB1",
+    900: "#2D59A7",
+  },
+  action: {
+    active: "#6B7280",
+    focus: "rgba(55, 65, 81, 0.12)",
+    hover: "rgba(55, 65, 81, 0.04)",
+    selected: "rgba(55, 65, 81, 0.08)",
+    disabledBackground: "rgba(55, 65, 81, 0.12)",
+    disabled: "rgba(55, 65, 81, 0.26)",
+  },
+  background: {
+    default: "#F9FAFC",
+    paper: "#FFFFFF",
+  },
+  divider: "#E6E8F0",
+  primary: {
+    main: "#2d59a7",
+    light: "#cddfff",
+    dark: "#113f91",
+    contrastText: "#FFFFFF",
+  },
+  success: {
+    main: "#10B981",
+    light: "#3FC79A",
+    dark: "#0B815A",
+    contrastText: "#FFFFFF",
+  },
+  secondary: {
+    main: "#ffffff",
+    light: "#ffffff",
+    dark: "#ffffff",
+    contrastText: "#000000",
+  },
+  info: {
+    main: "#2196F3",
+    light: "#64B6F7",
+    dark: "#0B79D0",
+    contrastText: "#FFFFFF",
+  },
+  warning: {
+    main: "#FFB020",
+    light: "#FFBF4C",
+    dark: "#B27B16",
+    contrastText: "#FFFFFF",
+  },
+  error: {
+    main: "#D14343",
+    light: "#DA6868",
+    dark: "#922E2E",
+    contrastText: "#FFFFFF",
+  },
+  text: {
+    primary: "#121828",
+    secondary: "#65748B",
+    disabled: "rgba(55, 65, 81, 0.48)",
+  },
+};
